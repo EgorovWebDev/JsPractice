@@ -1,0 +1,63 @@
+body > p{
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  }
+  
+  form{
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; 
+    background-color: #4c5a65;
+    margin-top: 20px;
+  }
+  
+  form > input{
+    border-radius: 3px; 
+    border: 0;
+    padding: 5px;
+  }
+  
+  form > input[type="submit"]{
+    margin-left: 5px;
+    padding: 5px 10px;
+    background: #cccccc;
+    color: #222222
+  }
+  
+  form > input[type="submit"]:hover{
+    margin-left: 5px;
+    padding: 5px 10px;
+    background: #b9b9b9
+  }
+  
+  .list-films{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin: auto
+  }
+  
+  .list-item{
+    width: 20%;
+    margin: 10px 20px;
+    text-align: center
+  }
+  
+  
+  .list-item > img {
+    height: 350px;
+    width: 100%
+  }
+  
+  
+  .list-item > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+  } 
